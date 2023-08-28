@@ -1,0 +1,92 @@
+.navbar {
+  height: 54px;
+  background-color: #0005;
+  /* background-image: url('https://i.pinimg.com/564x/fb/92/57/fb9257d981908765fb439ead1c943f53.jpg'); */
+  display: flex;
+  justify-content: center;
+
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 76.35rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  /* font-weight: 500; */
+  font-family: 'Rampart One', cursive;
+  font-size: 44px;
+  margin-left: 11em ;
+}
+
+
+.navButton {
+  margin-left: 20px;
+  background-color: #0001;
+  /* background-image: url('https://i.pinimg.com/564x/fb/92/57/fb9257d981908765fb439ead1c943f53.jpg'); */
+  border: 1px White solid;
+  border-radius: 12px;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  color: whitesmoke;
+  box-shadow: 0px 0px 1px 0px black;
+}
+/* mobile screen */
+@media screen and (max-width:460px){
+  .navbar {
+  height: 54px;
+  max-width: 31.25rem;
+  
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navContainer {
+  width: inherit;
+  max-width:31.25rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  /* font-weight: 500; */
+  font-family: 'Rampart One', cursive;
+  font-size: 44px;
+  margin-left: 1rem ;
+}
+/* .hamb{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+}
+
+.ham{
+  background-color: white;
+  margin: 3px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 2.5rem;
+    height: 0.25rem;
+    border-radius: 70px;
+} */
+.navButton {
+  
+  margin-left: 20px;
+  /* background-image: url('https://i.pinimg.com/564x/fb/92/57/fb9257d981908765fb439ead1c943f53.jpg'); */
+  border: 1px White solid;
+  border-radius: 12px;
+  padding: 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  color: whitesmoke;
+  box-shadow: 0px 0px 1px 0px black;
+}
+  
+}

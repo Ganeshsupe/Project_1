@@ -1,0 +1,106 @@
+.login {
+  height: 100vh;
+  display: flex;
+  background-image:url(https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+}
+
+.lContainer {
+   margin: auto;
+    height: 90vh;
+    box-shadow: 0px 0px 19px #fff;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 65px;
+    background-color: rgba(0,0,0,0.5);
+    gap:24px
+
+
+}
+
+h1 {
+  color: white;
+    margin-bottom: 60px;
+    font-size: 50px
+}
+
+.person{
+  height: 10rem;
+    width: 10rem;
+    border: 2px solid #fff;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 81px;
+    overflow: auto;
+    box-shadow: 0px 0px 6px #fff;
+}
+#head{ 
+  height: 4em;
+  width: 4em;
+  position: absolute;
+  border-radius: 2em;
+  background-color: #fff6;
+  border: 2px solid #fff;
+}
+#body{ 
+  height: 5rem;
+    width: 8rem;
+    border-radius: 2em;
+    background-color: #fff6;
+    border: 2px solid #fff;
+    margin-top: 118px;
+}
+
+
+
+.lInput {
+  height: 1.3rem;
+    width: 26rem;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
+    border: 1px solid #fff5;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 14x;
+}
+.lInput:hover{
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 4px #fff;
+
+}
+.lInput ::placeholder {
+  color: rgba(255,255,255,0.7) ;
+  text-transform: capitalize; 
+}
+
+.lButton {
+  border: 0.3px solid white;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.5);
+
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.lButton:hover{
+  border: 1px solid #fff;
+  box-shadow: 0px 2px 9px #fff;
+
+}
+.Button:disabled{
+  background-color: rgba(0,0,0,0.5);
+
+  cursor: not-allowed;
+}
+.navre{
+  color:#fff
+}

@@ -1,0 +1,77 @@
+.signup {
+    height: 100vh;
+    display: flex;
+    background-image:url(https://images.unsplash.com/photo-1570206986634-afd7cccb68d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    /* background-color: cornflowerblue; */
+    
+  }
+  
+  .Container {
+    
+    margin: auto;
+    height: 90vh;
+    box-shadow: 0px 0px 6px #fffc;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 65px;
+    background-color: rgba(0,0,0,0.5);
+    gap:10px
+
+
+  }
+
+ .Container h1{
+
+    color: white;
+    margin-bottom: 90px;
+    font-size: 50px;
+  }
+  .Input{
+    height: 1.3rem;
+    width: 26rem;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
+    border: 1px solid #fff5;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 14x;
+
+  }
+  .Input:hover{
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px #fff;
+
+  }
+  .Input::placeholder{
+    color: rgba(255,255,255,0.7) ;
+   text-transform: capitalize; 
+  }
+  
+  .Button {
+    border: 0.3px solid white;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.5);
+
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 14px;
+  }
+  .Button:hover{
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 9px #fff;
+
+  }
+  .Button:disabled{
+    background-color: rgba(0,0,0,0.5);
+
+    cursor: not-allowed;
+  }
+  .navlo{
+    color:#fff
+  }
